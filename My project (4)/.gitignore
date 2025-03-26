@@ -1,0 +1,6 @@
+# Unity folders to ignore
+Library/
+Temp/
+Logs/
+Obj/
+.vs/
