@@ -1,0 +1,14 @@
+# Unity meta files should use LF
+*.meta text eol=lf
+
+# C# script files should use LF (common for cross-platform)
+*.cs text eol=lf
+
+# Shader files (optional – also store with LF)
+*.shader text eol=lf
+
+# Text files (like readme, .txt) can be LF as well
+*.txt text eol=lf
+
+# If you have batch files for Windows usage, keep them as CRLF
+*.bat text eol=crlf
