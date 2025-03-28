@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569cd5a0f10d7774694ca04f7992eddc, type: 3}
+  m_Name: Steel Leggings
+  m_EditorClassIdentifier: 
+  name: Steel Leggings
+  icon: {fileID: 21300000, guid: eecc9b3b2ad43ae449a415be5c8af6d3, type: 3}
+  isDefaultItem: 0
+  equipSlot: 2
+  mesh: {fileID: 2871792392096847897, guid: 8d54ac641fe2def469cd5d9d6e648a54, type: 3}
+  armourModifier: 3
+  damageModifier: 0
