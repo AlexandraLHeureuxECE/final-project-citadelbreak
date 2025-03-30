@@ -2,7 +2,22 @@ fileFormatVersion: 2
 guid: d075d680cccac4178aca7c82f2c05556
 NativeFormatImporter:
   externalObjects: {}
+<<<<<<< HEAD
   mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196526
+  packageName: Starter Assets - ThirdPerson | Updates in new CharacterController
+    package
+  packageVersion: 1.1.5
+  assetPath: Assets/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPGlobalSettings.asset
+  uploadId: 691128
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))

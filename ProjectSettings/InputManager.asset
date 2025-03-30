@@ -490,9 +490,15 @@ InputManager:
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
+<<<<<<< HEAD
     positiveButton: e
     altNegativeButton: 
     altPositiveButton: e
+=======
+    positiveButton: i
+    altNegativeButton: 
+    altPositiveButton: i
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
     gravity: 1000
     dead: 0.001
     sensitivity: 1000

@@ -15,7 +15,16 @@ MonoBehaviour:
   name: Steel Gauntlets
   icon: {fileID: 21300000, guid: 8df360ed408f67a4aa79d2db302959d4, type: 3}
   isDefaultItem: 0
+<<<<<<< HEAD
   equipSlot: 2
   mesh: {fileID: 7591302307677323948, guid: 577e160906102a547af16f6f07b2dc2d, type: 3}
   armourModifier: 0
   damageModifier: 0
+=======
+  equipSlot: 3
+  mesh: {fileID: 7591302307677323948, guid: 577e160906102a547af16f6f07b2dc2d, type: 3}
+  coveredMeshRegions: 
+  armourModifier: 0
+  damageModifier: 0
+  armorSetName: 
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))

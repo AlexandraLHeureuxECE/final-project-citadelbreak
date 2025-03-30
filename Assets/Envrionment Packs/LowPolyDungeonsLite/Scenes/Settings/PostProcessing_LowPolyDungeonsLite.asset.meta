@@ -2,7 +2,11 @@ fileFormatVersion: 2
 guid: c18acb873e979ad4ca7ab8dc6e732a09
 NativeFormatImporter:
   externalObjects: {}
+<<<<<<< HEAD
   mainObjectFileID: 0
+=======
+  mainObjectFileID: 11400000
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
   userData: 
   assetBundleName: 
   assetBundleVariant: 

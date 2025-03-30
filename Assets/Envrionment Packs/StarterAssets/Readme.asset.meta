@@ -1,8 +1,25 @@
 fileFormatVersion: 2
 guid: 4181bfe715a83e843b7538d750dc57cc
+<<<<<<< HEAD
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+timeCreated: 1484217493
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196526
+  packageName: Starter Assets - ThirdPerson | Updates in new CharacterController
+    package
+  packageVersion: 1.1.5
+  assetPath: Assets/StarterAssets/Readme.asset
+  uploadId: 691128
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))

@@ -12,6 +12,11 @@ public class Equipment : Item
     public int armourModifier;
     public int damageModifier;
 
+<<<<<<< HEAD
+=======
+    public string armorSetName;
+
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
     public override void Use()
     {
         base.Use();
@@ -23,5 +28,9 @@ public class Equipment : Item
     }
 }
 
+<<<<<<< HEAD
 public enum EquipmentSlot{ Head, Chest, Gauntlets, Legs, Weapon, Cape, Feet }
+=======
+public enum EquipmentSlot{ Head, Chest, Legs, Weapon, Shield, Feet }
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
 public enum EquipmentMeshRegion {Legs, Arms, Torso }; // Corresponds to body blendshapes

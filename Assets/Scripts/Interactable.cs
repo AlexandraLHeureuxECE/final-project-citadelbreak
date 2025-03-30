@@ -14,7 +14,11 @@ public class Interactable : MonoBehaviour
     public virtual void Interact()
     {
         // This method is meant to be overwritten
+<<<<<<< HEAD
         Debug.Log("Interacting with " + transform.name);
+=======
+        // Debug.Log("Interacting with " + transform.name);
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
     }
 
     void Update()

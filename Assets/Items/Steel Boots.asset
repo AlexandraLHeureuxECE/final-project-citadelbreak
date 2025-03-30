@@ -17,5 +17,12 @@ MonoBehaviour:
   isDefaultItem: 0
   equipSlot: 5
   mesh: {fileID: 3567263504682531489, guid: 0acd7ef8746b60b4f96dad13712fe9c9, type: 3}
+<<<<<<< HEAD
   armourModifier: 0
   damageModifier: 0
+=======
+  coveredMeshRegions: 
+  armourModifier: 3
+  damageModifier: 2
+  armorSetName: Steel
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))

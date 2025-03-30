@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class CharacterAnimator : MonoBehaviour
 {
+<<<<<<< HEAD
     const float locomotionAnimationSmoothTime = .1f;
     
     NavMeshAgent agent;
@@ -22,5 +23,49 @@ public class CharacterAnimator : MonoBehaviour
     {
         float speedPercent = agent.velocity.magnitude / agent.speed;
         animator.SetFloat("speedPercent", speedPercent, locomotionAnimationSmoothTime, Time.deltaTime);
+=======
+    public AnimationClip replaceableAttackAnim;
+    public AnimationClip[] defaultAttackAnimSet;
+    protected AnimationClip[] currentAttackAnimSet;
+    
+    const float locomotionAnimationSmoothTime = .1f;
+    
+    NavMeshAgent agent;
+    protected Animator animator;
+    protected CharacterCombat combat;
+    // public AnimatorOverrideController overrideController;
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    protected virtual void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        animator = GetComponentInChildren<Animator>();
+        combat = GetComponent<CharacterCombat>();
+
+        // if (overrideController == null)
+        // {
+        //     overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
+        // }
+        // animator.runtimeAnimatorController = overrideController;
+
+        currentAttackAnimSet = defaultAttackAnimSet;
+        combat.OnAttack += OnAttack;
+    }
+
+    // Update is called once per frame
+    protected virtual void Update()
+    {
+        float speedPercent = agent.velocity.magnitude / agent.speed;
+        animator.SetFloat("speedPercent", speedPercent, locomotionAnimationSmoothTime, Time.deltaTime);
+        
+        animator.SetBool("inCombat", combat.InCombat);
+    }
+
+    protected virtual void OnAttack()
+    {
+        animator.SetTrigger("attack");
+        int attackIndex = Random.Range(0, currentAttackAnimSet.Length);
+        // overrideController[replaceableAttackAnim.name] = currentAttackAnimSet[attackIndex];
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
     }
 }

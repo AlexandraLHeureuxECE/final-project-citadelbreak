@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: df609c753f653d945a95d4ac727a0cc3
+=======
+guid: 38802a90832b3f44684154d9fa8ef65c
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

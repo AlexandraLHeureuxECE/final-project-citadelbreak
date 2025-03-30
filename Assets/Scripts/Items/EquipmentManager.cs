@@ -43,12 +43,21 @@ public class EquipmentManager : MonoBehaviour
             inventory.Add(oldItem);
         }
 
+<<<<<<< HEAD
+=======
+        currentEquipment[slotIndex] = newItem;
+
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
         if (onEquipmentChanged != null)
         {
             onEquipmentChanged.Invoke(newItem, oldItem);
         }
+<<<<<<< HEAD
         
         currentEquipment[slotIndex] = newItem;
+=======
+
+>>>>>>> dd58089c (Character Selection Added & Level 1 Complete (may add more to it though))
         SkinnedMeshRenderer newMesh = Instantiate<SkinnedMeshRenderer>(newItem.mesh);
         newMesh.transform.parent = targetMesh.transform;
         
