@@ -1,0 +1,51 @@
+# Unity auto-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# Ignore Visual Studio and Rider files
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity crash logs
+sysinfo.txt
+
+# Ignore Unity builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Packed Addressables
+Assets/AddressableAssetsData/*/*.bin*
+
+# Ignore temporary auto-generated Android Assets
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*
