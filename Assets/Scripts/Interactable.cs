@@ -8,13 +8,13 @@ public class Interactable : MonoBehaviour
 
     bool isFocus = false;
     Transform player;
-    
+
     bool hasInteracted = false;
 
     public virtual void Interact()
     {
         // This method is meant to be overwritten
-        // Debug.Log("Interacting with " + transform.name);
+        Debug.Log("Interacting with " + transform.name);
     }
 
     void Update()
@@ -29,7 +29,7 @@ public class Interactable : MonoBehaviour
             }
         }
     }
-    
+
     public void OnFocused(Transform playerTransform)
     {
         isFocus = true;
@@ -48,7 +48,7 @@ public class Interactable : MonoBehaviour
     {
         if (interactionTransform == null)
             interactionTransform = transform;
-        
+
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(interactionTransform.position, radius);
     }

@@ -17,7 +17,12 @@ MonoBehaviour:
   isDefaultItem: 0
   equipSlot: 1
   mesh: {fileID: 6664755424473995601, guid: 90b422c333de00e4d8720a18852cfd20, type: 3}
+<<<<<<< HEAD
   coveredMeshRegions: 
   armourModifier: 3
   damageModifier: 2
   armorSetName: Steel
+=======
+  armourModifier: 0
+  damageModifier: 3
+>>>>>>> ziad

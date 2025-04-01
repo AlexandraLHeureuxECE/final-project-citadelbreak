@@ -3,13 +3,13 @@ using UnityEngine;
 public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
-    public int currentHealth {get; private set;}
-    
+    public int currentHealth { get; private set; }
+
     public Stat damage;
     public Stat armor;
-    
-    public event System.Action <int, int> OnHealthChanged;
-    
+
+    public event System.Action<int, int> OnHealthChanged;
+
     void Awake()
     {
         currentHealth = maxHealth;
@@ -27,7 +27,7 @@ public class CharacterStats : MonoBehaviour
     {
         damage -= armor.GetValue();
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
-        
+
         currentHealth -= damage;
         Debug.Log(transform.name + " takes " + damage + " damage.");
 
@@ -46,14 +46,13 @@ public class CharacterStats : MonoBehaviour
     {
         // Die in some way
         // This method is meant to be overwritten
-        Debug.Log(transform.name + " died") ;
+        Debug.Log(transform.name + " died");
     }
-    
+
     public void Heal(int amount)
     {
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         OnHealthChanged?.Invoke(maxHealth, currentHealth);
     }
-
 }

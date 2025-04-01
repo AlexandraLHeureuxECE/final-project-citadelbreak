@@ -114,10 +114,14 @@ AnimatorState:
   m_Name: Locomotion
   m_Speed: 1
   m_CycleOffset: 0
+<<<<<<< HEAD
   m_Transitions:
   - {fileID: -4469711692102093725}
   - {fileID: 4831599230324579027}
   - {fileID: 6363936130971292076}
+=======
+  m_Transitions: []
+>>>>>>> ziad
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -133,6 +137,7 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< HEAD
 --- !u!1102 &-2222682940419969367
 AnimatorState:
   serializedVersion: 6
@@ -205,6 +210,8 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 0}
+=======
+>>>>>>> ziad
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -220,6 +227,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
   - m_Name: hit1
     m_Type: 4
     m_DefaultFloat: 0
@@ -256,6 +264,8 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+=======
+>>>>>>> ziad
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -269,6 +279,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
   - serializedVersion: 5
     m_Name: Right Hand
     m_StateMachine: {fileID: 8792635084384604742}
@@ -371,6 +382,8 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+=======
+>>>>>>> ziad
 --- !u!1107 &2490849009313818778
 AnimatorStateMachine:
   serializedVersion: 6
@@ -383,6 +396,7 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -2405149178224228554}
     m_Position: {x: 369.43027, y: 235.11024, z: 0}
+<<<<<<< HEAD
   - serializedVersion: 1
     m_State: {fileID: 6889922180478976159}
     m_Position: {x: 680, y: 230, z: 0}
@@ -715,6 +729,8 @@ AnimatorStateMachine:
   m_PrefabAsset: {fileID: 0}
   m_Name: Right Hand
   m_ChildStates: []
+=======
+>>>>>>> ziad
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -724,4 +740,55 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+<<<<<<< HEAD
   m_DefaultState: {fileID: 0}
+=======
+  m_DefaultState: {fileID: -2405149178224228554}
+--- !u!206 &5078906050304364793
+BlendTree:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Blend Tree
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 1919466339434634908, guid: a88c9a70921a80e4688d550d9fe673f7, type: 3}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Blend
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 6536522707908897095, guid: 5eb532550a80bbf45bf031b3d9918a1b, type: 3}
+    m_Threshold: 0.33333334
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Blend
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: -4452440636216180258, guid: 7ae0a5d9769db55478a98ecf3d701a68, type: 3}
+    m_Threshold: 0.6666667
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Blend
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 2607429516404619790, guid: c1d64d86e87ea3b4b8dcd8c5b0f4c315, type: 3}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Blend
+    m_Mirror: 0
+  m_BlendParameter: speedPercent
+  m_BlendParameterY: Blend
+  m_MinThreshold: 0
+  m_MaxThreshold: 1
+  m_UseAutomaticThresholds: 1
+  m_NormalizedBlendValues: 0
+  m_BlendType: 0
+>>>>>>> ziad

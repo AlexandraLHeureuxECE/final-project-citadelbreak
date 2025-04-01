@@ -116,7 +116,11 @@ Material:
     - _ReceiveShadows: 1
     - _SCARSSMOOTHNESS: 0.3
     - _SCLERASMOOTHNESS: 0.5
+<<<<<<< HEAD
     - _SKINSMOOTHNESS: 0.3
+=======
+    - _SKINSMOOTHNESS: 0.204
+>>>>>>> ziad
     - _SmoothnessOn: 1
     - _SpecularHighlights: 1
     - __dirty: 1

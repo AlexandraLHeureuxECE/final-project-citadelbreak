@@ -490,9 +490,15 @@ InputManager:
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
+<<<<<<< HEAD
     positiveButton: i
     altNegativeButton: 
     altPositiveButton: i
+=======
+    positiveButton: tab
+    altNegativeButton: 
+    altPositiveButton: tab
+>>>>>>> ziad
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
