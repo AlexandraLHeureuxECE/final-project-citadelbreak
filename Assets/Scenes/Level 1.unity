@@ -3446,7 +3446,7 @@ MonoBehaviour:
   - text: Ah, so you're trying to escape huh?
   - text: There's always someone...
   - text: Well to get passed the first wall you're gonna need take down the guards
-  - text: I'd reccomend getting armor for the Guard's Station
+  - text: I'd reccomend getting armor from the Guard's Station
   playerDetection: 0
 --- !u!114 &223955421
 MonoBehaviour:
