@@ -40,6 +40,13 @@ public class TrapController : MonoBehaviour
             PlayerManager.instance.KillPlayer();
 
         }
+        if (other.CompareTag("Enemy")) // Check if the object has the "Player" tag
+        {
+          
+            // Add player damage or respawn logic here
+          Destroy(other.gameObject);
+
+        }
     }
    
 }
