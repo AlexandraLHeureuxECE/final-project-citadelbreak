@@ -8,8 +8,8 @@ public class PlayerMotor : MonoBehaviour
     NavMeshAgent agent;
 
     [Header("Movement Speeds")]
-    public float normalSpeed = 3.5f;
-    public float sprintSpeed = 6.5f;
+    public float normalSpeed = 10f;
+    public float sprintSpeed = 15f;
 
     [HideInInspector] public bool isSprinting = false;
 
