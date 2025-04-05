@@ -57,6 +57,7 @@
     <Compile Include="Assets/Scripts/TitleScreen.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/Scripts/Inventory/Inventory.cs" />
+    <Compile Include="Assets/Scripts/ObjectMonitor.cs" />
     <Compile Include="Assets/Scripts/Controllers/PlayerMotor.cs" />
     <Compile Include="Assets/Scripts/NPC/NPCSystem.cs" />
     <Compile Include="Assets/Scripts/Inventory/InventoryUI.cs" />

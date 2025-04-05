@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a2b7c5cf5fc4549a31bbafd9dc3d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   damage:
     baseValue: 15
   armor:
