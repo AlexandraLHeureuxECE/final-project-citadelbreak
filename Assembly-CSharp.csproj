@@ -57,6 +57,7 @@
     <Compile Include="Assets/Scripts/TitleScreen.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/Scripts/Inventory/Inventory.cs" />
+    <Compile Include="Assets/Scripts/Controllers/TrapController.cs" />
     <Compile Include="Assets/Scripts/ObjectMonitor.cs" />
     <Compile Include="Assets/Scripts/Controllers/PlayerMotor.cs" />
     <Compile Include="Assets/Scripts/NPC/NPCSystem.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/Scripts/Controllers/EnemyController.cs" />
     <Compile Include="Assets/Envrionment Packs/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets/Characters/Goblin_Character/EnemyChaser3D.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/Characters/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Scripts/HumanoidGiantDemo.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
@@ -120,6 +122,7 @@
     <Compile Include="Assets/Scripts/ArmorModelManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/Scripts/Controllers/GoblinController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/Scripts/Controllers/CameraController.cs" />
