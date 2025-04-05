@@ -114,4 +114,6 @@ public class NPCSystem : MonoBehaviour
     {
         playerDetection = false;
     }
+    
+    
 }
