@@ -37,7 +37,7 @@ public class FullSetChecker : MonoBehaviour
             return;
         }
 
-        DebugCurrentEquipmentArray(currentEquipment); // 🧠 See what's equipped
+        DebugCurrentEquipmentArray(currentEquipment); // See what's equipped
 
         string currentSetName = null;
         bool isFullSet = true;

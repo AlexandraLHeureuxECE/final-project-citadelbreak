@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569cd5a0f10d7774694ca04f7992eddc, type: 3}
+  m_Name: Royal Boots
+  m_EditorClassIdentifier: 
+  name: Royal Boots
+  icon: {fileID: 21300000, guid: 4e3e83a8c6ce5d144bd2bbab48fc14ea, type: 3}
+  isDefaultItem: 0
+  equipSlot: 5
+  mesh: {fileID: 7625277427581392198, guid: 6b734749116d1ad4295ec873cae98059, type: 3}
+  coveredMeshRegions: 
+  armourModifier: 3
+  damageModifier: 2
+  armorSetName: Royal

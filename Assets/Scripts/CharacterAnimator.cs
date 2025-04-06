@@ -48,4 +48,18 @@ public class CharacterAnimator : MonoBehaviour
         int attackIndex = Random.Range(0, currentAttackAnimSet.Length);
         // overrideController[replaceableAttackAnim.name] = currentAttackAnimSet[attackIndex];
     }
+    
+    public void SetAnimator(Animator newAnimator)
+    {
+        animator = newAnimator;
+
+        if (combat != null)
+        {
+            combat.OnAttack -= OnAttack; // Unsubscribe just in case
+            combat.OnAttack += OnAttack;
+        }
+
+        Debug.Log("Animator updated to: " + animator.name);
+    }
+
 }

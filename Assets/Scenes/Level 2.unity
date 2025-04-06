@@ -6474,6 +6474,7 @@ GameObject:
   - component: {fileID: 571436460}
   - component: {fileID: 571436459}
   - component: {fileID: 571436458}
+  - component: {fileID: 571436473}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -6766,6 +6767,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &571436473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571436456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943a117c2a4afa14fb759aed1759c6c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterRoot: {fileID: 571436457}
 --- !u!1 &581827118
 GameObject:
   m_ObjectHideFlags: 0
@@ -13873,7 +13887,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1193033308}
   - component: {fileID: 1193033310}
-  - component: {fileID: 1193033309}
   m_Layer: 0
   m_Name: Male Character
   m_TagString: Untagged
@@ -13899,28 +13912,6 @@ Transform:
   - {fileID: 999355819}
   m_Father: {fileID: 571436457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1193033309
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193033307}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 45f944a4396b0a54398eb1abe6743296, type: 3}
-  m_Controller: {fileID: 9100000, guid: d5c7686654711e4488569301a3f8ca59, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1193033310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14449,7 +14440,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.13333334
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 3c8c56665042c114e8e88ec5b5b9d6b5, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: e3bf7433967343d4fb335282155b0135, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &1222427341
 Transform:

@@ -830,7 +830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 30
   damage:
-    baseValue: 10
+    baseValue: 14
   armor:
     baseValue: 0
 --- !u!114 &63495905
@@ -9128,7 +9128,7 @@ Transform:
   m_GameObject: {fileID: 617517304}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.19, z: 0}
+  m_LocalPosition: {x: 0, y: 1.78, z: 0.73}
   m_LocalScale: {x: 1, y: 1.3507, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10225,7 +10225,7 @@ Transform:
   m_GameObject: {fileID: 657696313}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.39815116, z: -0, w: 0.9173199}
-  m_LocalPosition: {x: -1, y: -8.45, z: -4.52}
+  m_LocalPosition: {x: -1, y: -10.61, z: -4.52}
   m_LocalScale: {x: 2.3523, y: 2.3523, z: 2.3523}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10316,7 +10316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   damage:
-    baseValue: 15
+    baseValue: 17
   armor:
     baseValue: 7
 --- !u!114 &657696320
@@ -10410,7 +10410,7 @@ NavMeshAgent:
   m_Acceleration: 20
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 2
+  m_StoppingDistance: 10
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -11117,6 +11117,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f97780a5b4f3ed64ca0fe117ef736a11, type: 3}
+--- !u!1 &728709933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1845945369076765872, guid: 3d2e6e9a35aebe848bcaf85c3ec6c0f1, type: 3}
+  m_PrefabInstance: {fileID: 1411054724}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &729633467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
@@ -11772,6 +11777,7 @@ GameObject:
   - component: {fileID: 756420541}
   - component: {fileID: 756420542}
   - component: {fileID: 756420543}
+  - component: {fileID: 756420544}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12064,6 +12070,19 @@ MonoBehaviour:
   easeManaSlider: {fileID: 1782630078}
   maxMana: 100
   mana: 0
+--- !u!114 &756420544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756420524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943a117c2a4afa14fb759aed1759c6c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterRoot: {fileID: 756420525}
 --- !u!1001 &757600569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18439,7 +18458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 30
   damage:
-    baseValue: 10
+    baseValue: 14
   armor:
     baseValue: 0
 --- !u!114 &1221930735
@@ -19839,7 +19858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 20
   damage:
-    baseValue: 5
+    baseValue: 12
   armor:
     baseValue: 0
 --- !u!114 &1280052432
@@ -22024,7 +22043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1357216421320936970, guid: 3d2e6e9a35aebe848bcaf85c3ec6c0f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1357216421320936970, guid: 3d2e6e9a35aebe848bcaf85c3ec6c0f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22081,13 +22100,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1845945369076765872, guid: 3d2e6e9a35aebe848bcaf85c3ec6c0f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1411054727}
   m_SourcePrefab: {fileID: 100100000, guid: 3d2e6e9a35aebe848bcaf85c3ec6c0f1, type: 3}
 --- !u!4 &1411054725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1357216421320936970, guid: 3d2e6e9a35aebe848bcaf85c3ec6c0f1, type: 3}
   m_PrefabInstance: {fileID: 1411054724}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1411054727
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728709933}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1415267739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29538,7 +29582,7 @@ Transform:
   m_GameObject: {fileID: 1892351635}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.37155992, z: -0, w: 0.92840904}
-  m_LocalPosition: {x: 29.555511, y: 4.745714, z: -3.5199528}
+  m_LocalPosition: {x: 29.11, y: 4.745714, z: -3.05}
   m_LocalScale: {x: 16.760136, y: 12.667275, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31843,7 +31887,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.13333334
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 59d189321f03f7b43bb3fa3ebd172d03, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: cfcfd1d1b21ba274fa818abca29d64c4, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &2035767927 stripped
 GameObject:
@@ -36868,7 +36912,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2825040000576515304}
   - component: {fileID: 1858459134}
-  - component: {fileID: 4907004770780504550}
   m_Layer: 0
   m_Name: Male Character
   m_TagString: Untagged
@@ -36876,28 +36919,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!95 &4907004770780504550
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4907004770780504549}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 45f944a4396b0a54398eb1abe6743296, type: 3}
-  m_Controller: {fileID: 9100000, guid: d5c7686654711e4488569301a3f8ca59, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4936562414230750340
 GameObject:
   m_ObjectHideFlags: 0

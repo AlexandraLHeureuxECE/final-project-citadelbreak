@@ -4767,7 +4767,7 @@ GameObject:
   - component: {fileID: 133143429}
   - component: {fileID: 133143428}
   m_Layer: 0
-  m_Name: Steel Helmet Pickup
+  m_Name: Royal Helmet Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4787,7 +4787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1
   interactionTransform: {fileID: 133143432}
-  item: {fileID: 11400000, guid: 7c1168b89128bbd4d9b904800e3082f2, type: 2}
+  item: {fileID: 11400000, guid: 919e66fec88787b4996be3cfb46f52f4, type: 2}
 --- !u!65 &133143429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8241,7 +8241,7 @@ GameObject:
   - component: {fileID: 250056715}
   - component: {fileID: 250056714}
   m_Layer: 0
-  m_Name: Steel Boots Pickup
+  m_Name: Royal Boots Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8277,7 +8277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.8
   interactionTransform: {fileID: 250056713}
-  item: {fileID: 11400000, guid: 8e8f5950d4fe7e646b81e04df04cbca0, type: 2}
+  item: {fileID: 11400000, guid: 1b91b0aac50c1bc44af20e30cb8324c4, type: 2}
 --- !u!65 &250056715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13366,7 +13366,7 @@ GameObject:
   - component: {fileID: 408756886}
   - component: {fileID: 408756885}
   m_Layer: 0
-  m_Name: Steel Leggings Pickup
+  m_Name: Royal Leggings Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13386,7 +13386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1
   interactionTransform: {fileID: 408756889}
-  item: {fileID: 11400000, guid: 32ffe5ed577876f4da0548002f419cc4, type: 2}
+  item: {fileID: 11400000, guid: 2ce271ffe955c9747b0752c4e147cf99, type: 2}
 --- !u!65 &408756886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14208,8 +14208,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2092049011545156663, guid: dc58d9f5a75b1ff408e1975cca911a23, type: 3}
       propertyPath: m_Name
-      value: PT_Male_Armor_01_A_legs
+      value: PT_Male_Armor_01_C_legs
       objectReference: {fileID: 0}
+    - target: {fileID: 8780809071535740726, guid: dc58d9f5a75b1ff408e1975cca911a23, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 3450993239390473418, guid: 4d54dd1e3f13c7c4e90430c5aa72c45f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24321,6 +24325,7 @@ GameObject:
   - component: {fileID: 756420541}
   - component: {fileID: 756420542}
   - component: {fileID: 756420543}
+  - component: {fileID: 756420544}
   m_Layer: 0
   m_Name: Player
   m_TagString: MainCamera
@@ -24342,7 +24347,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2825040000576515304}
-  - {fileID: 1391351824}
+  - {fileID: 7640403675115306716}
   - {fileID: 1683992977}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -24616,6 +24621,19 @@ MonoBehaviour:
   easeManaSlider: {fileID: 1782630078}
   maxMana: 100
   mana: 0
+--- !u!114 &756420544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756420524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943a117c2a4afa14fb759aed1759c6c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterRoot: {fileID: 756420525}
 --- !u!1 &757659121
 GameObject:
   m_ObjectHideFlags: 0
@@ -30472,8 +30490,8 @@ MonoBehaviour:
   - text: Stick with me. We'll have to fight off anyone who stands in our way.
   - text: "Try not to get lost\u2014this labyrinth is known to confuse even seasoned
       warriors."
-  - text: At the end lies a dark dungeon. The final boss waits for us there. Take
-      them down, and we can move on to the next level together.
+  - text: At the end lies a dark dungeon. The final boss waits for us there.
+  - text: Take them down, and we can move on to the next level together.
   - text: Ready yourself, hero. Our fate depends on how well you wield that blade.
   playerDetection: 0
 --- !u!114 &962197708
@@ -30538,6 +30556,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2207045910776292682, guid: ebf4110781628ec4a9736928e6eb46d7, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5276576557918567525, guid: 45f944a4396b0a54398eb1abe6743296, type: 3}
     - target: {fileID: 8574551702031437920, guid: ebf4110781628ec4a9736928e6eb46d7, type: 3}
       propertyPath: m_Name
       value: PT_Male_Armor_01_A_helmet
@@ -39464,7 +39486,7 @@ GameObject:
   - component: {fileID: 1287726626}
   - component: {fileID: 1287726625}
   m_Layer: 0
-  m_Name: Steel Chestplate Pickup
+  m_Name: Royal Chestplate Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39484,7 +39506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1
   interactionTransform: {fileID: 1287726629}
-  item: {fileID: 11400000, guid: cb0cfac324e6336449dd7ef0ed7338a0, type: 2}
+  item: {fileID: 11400000, guid: 3cd7ccfd8b0c34f48b95468af556555b, type: 2}
 --- !u!65 &1287726626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42200,6 +42222,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287726629}
     m_Modifications:
+    - target: {fileID: 461396967736057851, guid: 0822eabcbbbc50544ae4445d4128c70e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1275662362892940343, guid: 45f944a4396b0a54398eb1abe6743296, type: 3}
     - target: {fileID: 1158643696024530595, guid: 0822eabcbbbc50544ae4445d4128c70e, type: 3}
       propertyPath: m_Name
       value: PT_Male_Armor_01_A_body
@@ -43295,11 +43321,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390648591}
   m_Mesh: {fileID: 4300000, guid: 2e0734a80e2422f4ebd487a6cfa13917, type: 3}
---- !u!4 &1391351824 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7620269049113829761, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
-  m_PrefabInstance: {fileID: 272618388914921309}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1393673981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55381,18 +55402,13 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832266901}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1832973869 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2309361185201877040, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
-  m_PrefabInstance: {fileID: 272618388914921309}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1832973870
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832973869}
+  m_GameObject: {fileID: 2577456714580963181}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbfa751529125a94897d199a332de7ad, type: 3}
@@ -61946,7 +61962,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.13333334
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 59d189321f03f7b43bb3fa3ebd172d03, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 89246cc8388203e47931f6070272ebb3, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1001 &2036913497
 PrefabInstance:
@@ -65366,6 +65382,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d5c7686654711e4488569301a3f8ca59, type: 2}
+    - target: {fileID: 1564819536448032246, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564819536448032246, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564819536448032246, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2309361185201877040, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
       propertyPath: m_Name
       value: Female Character
@@ -65419,9 +65447,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9062423512095964583, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062423512095964583, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d5c7686654711e4488569301a3f8ca59, type: 2}
+    - target: {fileID: 9062423512095964583, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062423512095964583, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062423512095964583, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65700,6 +65744,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7779381876516336808}
   m_Mesh: {fileID: 4300000, guid: 657987f19f0767d4f81541198f8e3eff, type: 3}
+--- !u!1 &2577456714580963181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2309361185201877040, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+  m_PrefabInstance: {fileID: 272618388914921309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2825040000576515304
 Transform:
   m_ObjectHideFlags: 0
@@ -66448,7 +66497,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2825040000576515304}
   - component: {fileID: 1858459134}
-  - component: {fileID: 4907004770780504550}
   m_Layer: 0
   m_Name: Male Character
   m_TagString: Untagged
@@ -66456,28 +66504,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!95 &4907004770780504550
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4907004770780504549}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 45f944a4396b0a54398eb1abe6743296, type: 3}
-  m_Controller: {fileID: 9100000, guid: d5c7686654711e4488569301a3f8ca59, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!64 &5364512599990718429
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66803,6 +66829,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 250056713}
     m_Modifications:
+    - target: {fileID: 1705811728989177990, guid: c94dcb981bd6fc44ca3bef5163aa82dd, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 3729520887908469058, guid: 2f52d8a6913146149a4883f840e52061, type: 3}
     - target: {fileID: 2540693674646485634, guid: c94dcb981bd6fc44ca3bef5163aa82dd, type: 3}
       propertyPath: m_Name
       value: PT_Male_Armor_01_A_boots
@@ -66852,6 +66882,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c94dcb981bd6fc44ca3bef5163aa82dd, type: 3}
+--- !u!4 &7640403675115306716 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7620269049113829761, guid: 4458a0930dd52d54a8f9aa812ee8dca0, type: 3}
+  m_PrefabInstance: {fileID: 272618388914921309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7779381876371410221
 GameObject:
   m_ObjectHideFlags: 0

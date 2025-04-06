@@ -7722,6 +7722,7 @@ GameObject:
   - component: {fileID: 756420541}
   - component: {fileID: 756420542}
   - component: {fileID: 756420543}
+  - component: {fileID: 756420544}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -8014,6 +8015,19 @@ MonoBehaviour:
   easeManaSlider: {fileID: 1782630078}
   maxMana: 100
   mana: 0
+--- !u!114 &756420544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756420524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943a117c2a4afa14fb759aed1759c6c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterRoot: {fileID: 756420525}
 --- !u!1001 &756454406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20580,7 +20594,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2825040000576515304}
   - component: {fileID: 1858459134}
-  - component: {fileID: 4907004770780504550}
   m_Layer: 0
   m_Name: Male Character
   m_TagString: Untagged
@@ -20588,28 +20601,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!95 &4907004770780504550
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4907004770780504549}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 45f944a4396b0a54398eb1abe6743296, type: 3}
-  m_Controller: {fileID: 9100000, guid: d5c7686654711e4488569301a3f8ca59, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &6017142682300641167
 PrefabInstance:
   m_ObjectHideFlags: 0
