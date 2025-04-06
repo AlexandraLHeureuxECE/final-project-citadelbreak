@@ -531,7 +531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2ca2b83da61adf49976f3e281143c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level 3
 --- !u!65 &111483854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -654,10 +653,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2900, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -22838,6 +22837,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 665478527}
     m_Modifications:
+    - target: {fileID: 9547338, guid: f8243bb353e5cb74481bb26fe62fd298, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4207a14823e50e6438f37b401c727159, type: 2}
     - target: {fileID: 175852, guid: 046354f99bf9046af87d7aac4ff113f1, type: 3}
       propertyPath: m_Name
       value: Axel 1
@@ -22906,10 +22909,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e3c3dcf3633222f478c7ebfc5d644ab0, type: 2}
-    - target: {fileID: 9547338, guid: f8243bb353e5cb74481bb26fe62fd298, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 4207a14823e50e6438f37b401c727159, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
